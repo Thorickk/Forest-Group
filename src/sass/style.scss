@@ -706,6 +706,11 @@ a {
 				a {
 					font-size: 1.4rem;
 					color: $main-color-third;
+					transition: color 0.4s;
+
+					&:hover {
+						color: $cta-color-hover;
+					}
 				}
 			}
 		}
